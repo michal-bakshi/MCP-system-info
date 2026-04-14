@@ -1,0 +1,4 @@
+# Runtime dependencies for the MCP System-Info server.
+# Python >= 3.10 (required by the mcp package).
+mcp>=1.27.0,<2
+psutil>=7.2.0,<8
