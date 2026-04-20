@@ -1,5 +1,5 @@
 from src.app import mcp
-from services import process_services
+from src.services import process_services
 
 
 @mcp.tool(description="Terminate a process after validation and user confirmation")

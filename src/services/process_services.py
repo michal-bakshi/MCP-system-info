@@ -3,14 +3,14 @@ from typing import Any, Dict, List
 
 import psutil
 
-from models.process_model import (
+from src.models.process_model import (
     ProcessInfo,
     check_high_resource_usage,
     create_process,
     get_processes,
     terminate_process,
 )
-from services.process_validation import (
+from src.services.process_validation import (
     get_safe_to_terminate_processes,
     is_process_safe_to_terminate,
 )
